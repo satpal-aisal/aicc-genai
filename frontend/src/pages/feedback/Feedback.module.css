@@ -1,0 +1,12 @@
+
+.feedbackWrapper {
+        margin-top: 55px;
+        display: block;
+        padding: 10px;
+}
+
+.feedbackForm{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

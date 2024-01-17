@@ -295,7 +295,7 @@ const Chat = () => {
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
                             {/* <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" /> */}
-                            <h1 className={styles.chatEmptyStateTitle}>JSPL Gen AI</h1>
+                            <h1 className={styles.chatEmptyStateTitle}>AICC GenAI</h1>
                             <p>
                                 <div className={styles.powered}>Powered by</div>
                               <img src="aisal.png" alt="logo" style={{ width: "100px" }} />
@@ -347,7 +347,7 @@ const Chat = () => {
                     <div className={styles.chatInput} style={activeAnalysisPanelTab ? { width: "50%" } : {}}>
                         <QuestionInput
                             clearOnSend
-                            placeholder="Type a new question (e.g. What is sporadic mutation?)"
+                            placeholder="Type a new question (e.g. What is AICC?)"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                         />
